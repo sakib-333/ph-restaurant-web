@@ -2,3 +2,80 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common properties */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-items {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+main {
+  width: 1920px;
+  margin: 100px auto;
+}
+.banner-contents {
+  height: 919px;
+  background: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("./images/hero-bg.png");
+  background-repeat: no-repeat;
+}
+.banner {
+  width: 1023px;
+  height: 393px;
+}
+
+.banner-p1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.banner-h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.banner-p2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.banner-btn {
+  width: 279px;
+  height: 66px;
+  font-size: 20px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  color: #fff;
+  border: none;
+}
