@@ -215,3 +215,27 @@ main {
 .card-section {
   height: 656px;
 }
+
+footer {
+  margin: 0 auto;
+  width: 1920px;
+  height: 671px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.footer-bg {
+  width: 1920px;
+  height: 671px;
+  background-image: url("./images/social-bg.png");
+  background-size: 100% 100%;
+  opacity: 0.2;
+}
+
+.footer-div {
+  width: 1320px;
+  height: 671px;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
